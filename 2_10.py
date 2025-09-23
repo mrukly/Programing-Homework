@@ -1,3 +1,3 @@
 way = int(input())
 
-print(way // 1609.344)
+print(int(way // 1609.344))
