@@ -1,4 +1,5 @@
-N, K = map(int, input().split())
+N = int(input())
+K - int(input())
 
 bulls = N % K
 
