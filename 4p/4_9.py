@@ -12,15 +12,23 @@ if a1.lower == 'да':
         print('Гончая')
       else:
         a5 = input('У собаки короткое тело? ')
-        if a2.lower == 'да':
+        if a5.lower == 'да':
           print('Мопс')
         else:
           print('Чихуахуа')
   else:
     a3 = input('Собака весит более 50 кг? ')
+    if a3.lower == 'да':
+      print('Датский дог')
+    else:
+      print('Фоксхаунд')
 else:
   a2.lower = input('Рост собаки менее 50 см? ')
   if a2.lower == 'да':
     a3 = input('У собаки доброжелательный характер? ')
+    if a3.lower == 'да':
+      print('Кокер-спаниэль')
+    else:
+      print('Ирландский сеттер')
   else:
     a3 = input('Рост собаки менее 70см? ')
