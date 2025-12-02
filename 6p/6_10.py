@@ -3,7 +3,6 @@ import turtle
 x1_1, y1_1 = map(int, input().split())
 x1_2, y1_2 = map(int, input().split())
 
-# Ввод данных для второго прямоугольника
 x2_1, y2_1 = map(int, input().split())
 x2_2, y2_2 = map(int, input().split())
 
