@@ -1,12 +1,12 @@
-import math
+from math import sqrt
 
-D = 2 * 6.5
+d = 2 * 6.5
 
-A = int(input())
-B = int(input())
+n = input()
+a, b = map(float, s.split('х'))
+c = math.sqrt(a**2 + b **2)
 
-d = math.sqrt(A**2 + B**2)
-if d <= D: 
-    print("да")
+if c <= d:
+    print('да')
 else:
-    print("нет")
+    print('нет')
