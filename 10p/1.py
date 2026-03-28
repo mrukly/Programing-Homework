@@ -1,16 +1,16 @@
 def count_chars(s):
-    vowels = set('аеёиоуыэюя')
-    cons = set('бвгджзйклмнпрстфхцчшщъь')
-    
     v = 0
     c = 0
+    
+    vowels = "аеёиоуыэюяaeiouy"
+    consonants = "бвгджзйклмнпрстфхцчшщъьbcdfghjklmnpqrstvwxz"
     
     s = s.lower()
     
     for ch in s:
         if ch in vowels:
             v += 1
-        elif ch in cons:
+        elif ch in consonants:
             c += 1
     
     print("Гласных:", v)
