@@ -1,4 +1,13 @@
 def convert(s):
+    """
+    Converts date and time from 'MM/DD/YYYY HH:MM:SS' to 'DD.MM.YY HH:MM:SS AM/PM'
+
+    Parameters:
+    s (str): Input string in format 'MM/DD/YYYY HH:MM:SS'
+
+    Returns:
+    None
+    """
     m = int(s[:2])
     d = int(s[3:5])
     y = s[6:10]
