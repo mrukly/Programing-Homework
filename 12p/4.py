@@ -20,5 +20,4 @@ a1 = float(input())
 r = float(input())
 n = int(input())
 
-result = sum_progress(a1, r, n)
-print(result)
+print(sum_progress(a1, r, n))
