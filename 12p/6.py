@@ -18,6 +18,4 @@ def degree5(n):
     return -1
 
 n = int(input())
-result = degree5(n)
-
-print(result)
+print(degree5(n))
