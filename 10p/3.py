@@ -1,4 +1,16 @@
 def price(price, card, holiday):
+    """
+    Calculates the final price after applying discounts
+
+    Parameters:
+    price (float): Purchase price
+    card (bool): True if the customer has a discount card
+    holiday (bool): True if it is a holiday
+
+    Returns:
+    float: Final price after applying all discounts
+    """
+    
     price = round(price, 2)
     
     discount = 0
