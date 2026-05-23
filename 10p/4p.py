@@ -1,4 +1,14 @@
 def make_payment(P):
+    """
+   Checks if a credit card payment is valid
+
+    Parameters:
+    P (float): The payment amount attempted
+
+    Returns:
+    None
+    """
+    
     limit = 1000
     minimal = 20
     
