@@ -1,4 +1,14 @@
 def count_chars(s):
+    """
+    Counts the number of vowels and consonants in a sentence
+
+    Parameters:
+    s (str): A sentence in Russian
+
+    Returns:
+    None
+    """
+    
     v = 0
     c = 0
     
