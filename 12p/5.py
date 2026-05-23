@@ -18,5 +18,4 @@ def mod_number(a, b):
 a = int(input())
 b = int(input())
 
-result = mod_number(a, b)
-print(result)
+print(mod_number(a, b))
