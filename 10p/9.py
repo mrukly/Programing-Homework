@@ -1,4 +1,13 @@
 def seconds(s):
+    """
+    Returns the number of seconds passed since 01/01/YYYY 00:00:00
+
+    Parameters:
+    s (str): Input string in format 'MM/DD/YYYY HH:MM:SS'
+
+    Returns:
+    int: Number of seconds, or -1 if input is invalid
+    """
     m = int(s[:2])
     d = int(s[3:5])
     y = int(s[6:10])
