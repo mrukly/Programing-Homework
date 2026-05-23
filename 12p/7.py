@@ -17,5 +17,4 @@ def nod(a, b):
 a = int(input())
 b = int(input())
 
-result = nod(a, b)
-print(result)
+print(nod(a, b))
