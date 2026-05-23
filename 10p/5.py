@@ -1,4 +1,13 @@
 def card(price):
+    """
+    Returns the total value of a phone card including bonuses
+
+    Parameters:
+    price (int): Price of the card
+
+    Returns:
+    int: Total value including bonus, or -1 if the price is invalid
+    """
     if price == 5 or price == 10:
         final = price
     elif price == 25:
