@@ -14,5 +14,4 @@ def count(n):
         return 1 + count(n // 10)
 
 n = int(input())
-result = count(n)
-print(result)
+print(count(n))
