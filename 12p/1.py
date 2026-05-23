@@ -17,5 +17,4 @@ def pownum(a, n):
 a = float(input())
 n = int(input())
 
-result = pownum(a, n)
-print(result)
+print(pownum(a, n))
