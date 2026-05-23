@@ -1,12 +1,12 @@
 def count(n):
     """
-    Counts the number of digits in a natural number.
+    Counts the number of digits in a natural number
 
     Parameters:
-    n (int): A natural number (n >= 1).
+    n (int): A natural number (n >= 1)
 
     Returns:
-    int: The number of digits in n.
+    int: The number of digits in n
     """
     if n < 10:
         return 1
