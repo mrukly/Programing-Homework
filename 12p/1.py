@@ -13,3 +13,9 @@ def pownum(a, n):
         return a
     else:
         return a * pownum(a, n - 1)
+
+a = float(input())
+n = int(input())
+
+result = pownum(a, n)
+print(result)
