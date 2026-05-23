@@ -1,6 +1,6 @@
 def make_payment(P):
     """
-   Checks if a credit card payment is valid
+    Checks if a credit card payment is valid
 
     Parameters:
     P (float): The payment amount attempted
